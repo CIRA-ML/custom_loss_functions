@@ -599,7 +599,7 @@ def make_FSS_loss(mask_size):  # choose any mask size for calculating densities
     return my_FSS_loss
 ```
 ---
-# Adaotive loss functions 
+# Adaptive loss functions 
 Discrete phases
 ```python
    # Standard MSE loss function
@@ -658,38 +658,5 @@ Discrete phases
       img1, img2, max_val, power_factors=_MSSSIM_WEIGHTS, filter_size=11,
       filter_sigma=1.5, k1=0.01, k2=0.03
    )
-```
-
-### 
-```python
-```
-
-### 
-```python
-```
-
-### 
-```python
-```
-
-### 
-```python
-```
-
-### 
-```python
-```
-
-### 
-```python
-```
-
-
-
-
-
-
-```python
-
 ```
 
